@@ -57,7 +57,7 @@ public class TcpClient extends Activity {
     
     BufferedReader in = null;
     BufferedWriter out = null;
-    private static final int TCP_SERVER_PORT = 8888;
+    private static final int TCP_SERVER_PORT = 9999;
     
     String outMsg = "";
 	private void runTcpClient() {
